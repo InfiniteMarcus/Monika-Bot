@@ -1,0 +1,24 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "axios": "^0.19.2",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.7",
+    "pg": "^8.4.1",
+    "remove-accents": "^0.4.2",
+    "tcp-ping": "^0.1.1",
+    "ytdl-core-discord": "^1.2.4"
+  }
+}

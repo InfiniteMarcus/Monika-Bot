@@ -1,0 +1,8 @@
+{
+	"prefix": "monika",
+	"secret_prefix": "just monika",
+	"token": "your token here",
+	"directories": ["about", "games", "level", "utils", "voice"],
+	"mainTextChannel": "your text channel id",
+	"afkChannel": "your afk channel id"
+}
