@@ -3,7 +3,7 @@
 ## Conceito
 O projeto **Monika bot** se baseia na criação de um bot de propósito geral para a plataforma Discord, utilizando-se de do módulo [discord.js](https://github.com/discordjs/discord.js), em Node.js, para acessar a API da mesma e fornecer diversos comandos úteis para os usuários (principalmente do HackoonSpace).
 
-Os principais intúitos deste programa são:
+Os principais intuitos deste programa são:
 1. Aumentar o engajamento dos usuários nos servidores do Discord
 2. Facilitar a interação entre usuários e/ou bots
 3. Automatizar o uso de ferramentas já disponíveis em outros meios computacionais
@@ -18,24 +18,24 @@ O autor deste projeto deixa claro que não possui quaisquer direitos oficiais so
 ## Funcionalidades
 
 Dentre as funcionalidades atualmente implementadas, a Monika pode:
-* Cumprimentar e realizar outras interações básicas com os usuários (entrar em canais de voz, abraçar, enviar mensagens de texto aleatórias, etc)
+* Cumprimentar e realizar interações básicas com usuários (entrar em canais de voz, abraçar, enviar mensagens de texto aleatórias, etc)
 * Mostrar uma lista completa de comandos (e fornecer mais detalhes sobre eles)
-* 
-*
+* Mostrar a previsão do tempo para um determinado lugar
+* Enviar gifs aleatórios
 
 ## Recursos utilizados
 
 Para o desenvolvimento deste projeto, o recurso utilizado mais importante foi o framework [Node.js](https://nodejs.org/en/), que possibilita o uso da linguagem Javascript para aplicações servidoras. No entanto, o gerenciador de pacotes [npm](https://www.npmjs.com/) também foi de suma importância, possibilitando a instalação de módulos fundamentais para a implementação dos comandos propostos.
 
 Segue a lista atual de dependências do projeto:
-1. [@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)
-2. [axios](https://www.npmjs.com/package/axios)
-3. [discord.js](https://www.npmjs.com/package/discord.js)
-4. [ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)
-5. [pg](https://www.npmjs.com/package/pg)
-6. [remove-accents](https://www.npmjs.com/package/remove-accents)
-7. [tcp-ping](https://www.npmjs.com/package/tcp-ping)
-8. [ytdl-core-discord](https://www.npmjs.com/package/ytdl-core-discord)
+* [@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)
+* [axios](https://www.npmjs.com/package/axios)
+* [discord.js](https://www.npmjs.com/package/discord.js)
+* [ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)
+* [pg](https://www.npmjs.com/package/pg)
+* [remove-accents](https://www.npmjs.com/package/remove-accents)
+* [tcp-ping](https://www.npmjs.com/package/tcp-ping)
+* [ytdl-core-discord](https://www.npmjs.com/package/ytdl-core-discord)
 
 Mais detalhes sobre as versões utilizadas de cada dependência e do framework em questão se encontram no arquivo package.json.
 
