@@ -18,9 +18,9 @@ O autor deste projeto deixa claro que não possui quaisquer direitos oficiais so
 ## Funcionalidades
 
 Dentre as funcionalidades atualmente implementadas, a Monika pode:
-*
-*
-*
+* Cumprimentar e realizar outras interações básicas com os usuários (entrar em canais de voz, abraçar, enviar mensagens de texto aleatórias, etc)
+* Mostrar uma lista completa de comandos (e fornecer mais detalhes sobre eles)
+* 
 *
 
 ## Recursos utilizados
