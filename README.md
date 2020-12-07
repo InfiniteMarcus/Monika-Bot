@@ -1,7 +1,7 @@
 # Monika bot
 
 ## Conceito
-Este projeto se baseia na criação de um bot de propósito geral para a plataforma Discord, utilizando-se de do módulo [discord.js](https://github.com/discordjs/discord.js), em Node.js, para acessar a API da mesma e fornecer diversos comandos úteis para os usuários (principalmente do HackoonSpace).
+O projeto **Monika bot** se baseia na criação de um bot de propósito geral para a plataforma Discord, utilizando-se de do módulo [discord.js](https://github.com/discordjs/discord.js), em Node.js, para acessar a API da mesma e fornecer diversos comandos úteis para os usuários (principalmente do HackoonSpace).
 
 Os principais intúitos deste programa são:
 1. Aumentar o engajamento dos usuários nos servidores do Discord
@@ -18,20 +18,24 @@ O autor deste projeto deixa claro que não possui quaisquer direitos oficiais so
 ## Funcionalidades
 
 Dentre as funcionalidades atualmente implementadas, a Monika pode:
+*
+*
+*
+*
 
 ## Recursos utilizados
 
 Para o desenvolvimento deste projeto, o recurso utilizado mais importante foi o framework [Node.js](https://nodejs.org/en/), que possibilita o uso da linguagem Javascript para aplicações servidoras. No entanto, o gerenciador de pacotes [npm](https://www.npmjs.com/) também foi de suma importância, possibilitando a instalação de módulos fundamentais para a implementação dos comandos propostos.
 
 Segue a lista atual de dependências do projeto:
-1. @discordjs/opus
-2. axios
-3. discord.js
-4. ffmpeg-static
-5. pg
-6. remove-accents
-7. tcp-ping
-8. ytdl-core-discord
+1. [@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus)
+2. [axios](https://www.npmjs.com/package/axios)
+3. [discord.js](https://www.npmjs.com/package/discord.js)
+4. [ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)
+5. [pg](https://www.npmjs.com/package/pg)
+6. [remove-accents](https://www.npmjs.com/package/remove-accents)
+7. [tcp-ping](https://www.npmjs.com/package/tcp-ping)
+8. [ytdl-core-discord](https://www.npmjs.com/package/ytdl-core-discord)
 
 Mais detalhes sobre as versões utilizadas de cada dependência e do framework em questão se encontram no arquivo package.json.
 
@@ -47,7 +51,7 @@ Algumas funcionalidades utilizam acesso a banco de dados para armazenar, registr
 
 ## Bugs/problemas conhecidos
 
-Diante do desenvolvimento contínuo de novas funcionalidades para o bot, existem grandes chances de bugs e problemas futuros serem encontrados. Até o presente momento,  
+Diante do desenvolvimento contínuo de novas funcionalidades para o bot, existem grandes chances de bugs e problemas futuros serem encontrados.
 
 ## Autores
 
