@@ -4,10 +4,10 @@
 O projeto **Monika bot** se baseia na criação de um bot de propósito geral para a plataforma Discord, utilizando-se de do módulo [discord.js](https://github.com/discordjs/discord.js), em Node.js, para acessar a API da mesma e fornecer diversos comandos úteis para os usuários (principalmente do HackoonSpace).
 
 Os principais intuitos deste programa são:
-1. Aumentar o engajamento dos usuários nos servidores do Discord
-2. Facilitar a interação entre usuários e/ou bots
-3. Automatizar o uso de ferramentas já disponíveis em outros meios computacionais
-4. Desenvolver novas funcionalidades úteis em geral
+* Aumentar o engajamento dos usuários nos servidores do Discord
+* Facilitar a interação entre usuários e/ou bots
+* Automatizar o uso de ferramentas já disponíveis em outros meios computacionais
+* Desenvolver novas funcionalidades úteis em geral
 
 Além disso, a persona do bot é uma referência a personagem Monika, do jogo [Doki Doki Literature Club!](https://ddlc.moe/) (2017). O autor do projeto seguiu todos os direcionamentos e recomendações presentes no site da desenvolvedora do jogo, a [Team Salvato](http://teamsalvato.com/), sobre o uso de seus personagens em outras mídias e/ou formatos, bem como entrou em contato com a mesma para esclarecer eventuais dúvidas sobre o mesmo tema. Mais informações podem ser encontradas [aqui](http://teamsalvato.com/ip-guidelines/) (último acesso em: 07/12/2020).
 
@@ -41,7 +41,9 @@ Mais detalhes sobre as versões utilizadas de cada dependência e do framework e
 
 Outros recursos valiosos para o desenvolvimento deste projeto foram o tutorial disponível em [Discord.js Guide](https://discordjs.guide/), para melhor compreensão de como começar a construir bots para a plataforma Discord, e a documentação disponível em [discord.js.org](https://discord.js.org/#/docs/main/stable/general/welcome), para consultar mais informações sobre o módulo discord.js.
 
-Algumas funcionalidades utilizam acesso a banco de dados para armazenar, registrar e consultar dados dos usuários dos servidores aos quais o bot servirá. A tecnologia usada para tal fim foi o PostgreSQL.
+Algumas funcionalidades utilizam acesso a banco de dados para armazenar, registrar e consultar alguns dados dos usuários dos servidores aos quais o bot servirá. A tecnologia usada para tal fim foi o PostgreSQL, a partir do módulo pg, citado na lista de dependências. Atualmente, as credênciais de acesso ao banco se encontram no arquivo `database.js`, no diretório `functions`.
+
+Também é importante observar que o comando de previsão do tempo necessita de um token para a [API](https://openweathermap.org/api) do site [OpenWeather](https://openweathermap.org/). Atualmente, isto pode ser adicionado ao modificar a o texto `MYAPIID` no arquivo `weather.js` no diretório `commands/utils`.
   
 ## Passo a passo
 
