@@ -18,7 +18,7 @@ O autor deste projeto deixa claro que não possui quaisquer direitos oficiais so
 ## Funcionalidades
 
 Dentre as funcionalidades atualmente implementadas, a Monika pode:
-* Cumprimentar e realizar interações básicas com usuários (entrar em canais de voz, abraçar, enviar mensagens de texto aleatórias, etc)
+* Cumprimentar usuários, entrar em canais de voz, enviar abraços e enviar mensagens de texto aleatórias e outras 
 * Mostrar uma lista completa de comandos (e fornecer mais detalhes sobre eles)
 * Mostrar a previsão do tempo para um determinado lugar
 * Enviar gifs aleatórios
