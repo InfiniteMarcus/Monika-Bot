@@ -54,6 +54,20 @@ Também é importante observar que o comando de previsão do tempo necessita de 
   
 ## Passo a passo
 
+Para o desenvolvimento deste projeto, foram realizados os seguintes passos:
+
+* Uma versão inicial do programa foi criada seguindo o passo a passo detalhado no guia [Discord.js Guide](https://discordjs.guide/)
+* O primeiro comando, de envio de arquivos gif, foi criado, buscando-se compreender o funcionamento da API do Discord
+* Demais comandos básicos foram sendo construidos, como os de ajuda e cumprimento de usuários
+* Refatorou-se o arquivo principal `index.js`, de maneira a colocar cada função do bot em um módulo JavaScript separado
+* A conexão com banco de dados foi criada, armazenando dados sobre as interações dos usuários do servidor do HackoonSpace
+* O sistema de níveis e pontos de experiência foi implementado, visando a existência de comandos exclusivos para determinados níveis
+* Comandos mais complexos, como de conexão com a API de previsão do tempo e de deletar usuários foram sendo implementados, usando recursos mais avançados do Node.Js
+* Uma microeconomia, baseada em moedas ficticias (HackoonCoins) foi criada, possibilitando que alguns comandos só pudessem ser utilizados se o usuário consumisse algumas dessas moedas
+* Alguns tratamentos mais avançados para [Promises](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) e comportamentos assíncronos foram adicionados
+
+Diante da continuidade deste projeto, outros passos, estudos e reformulações ainda podem acontecer.
+
 ## Instalação
 
   ```
@@ -74,9 +88,10 @@ Também é importante observar que o comando de previsão do tempo necessita de 
   
   ```
   5º Passo: Preencha os demais campos com tokens e chaves de configuração do projeto:
-  * `process.env.BOT_TOKEN`, no arquivo `index.js`
-  * os campos de acesso ao banco de dados, em `functions/database.js`
-  * o campo MYAPIID, na chamada da API Open Weather, em `commands/utils/weather.js`
+  * `process.env.BOT_TOKEN`, no arquivo `index.js`, para autenticar o bot na API do Discord
+  * `process.env.ROLE` e `process.env.WELCOME_CHANNEL`, no arquivo `index.js, para configurar qual cargo padrão novos usuários irão receber e qual mensagem de boas-vindas deverá aparecer
+  * os campos de acesso ao banco de dados, em `functions/database.js`, para usufruir do sistema de níveis e moedas
+  * o campo MYAPIID, na chamada da API Open Weather, em `commands/utils/weather.js`, para o comando de previsão do tempo
   ```
 
   ```
