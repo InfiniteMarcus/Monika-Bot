@@ -67,7 +67,7 @@ Também é importante observar que o comando de previsão do tempo necessita de 
   
   ```
   5º Passo: Preencha os demais campos com tokens e chaves de configuração do projeto:
-  * process.env.BOT_TOKEN, no arquivo `index.js`
+  * `process.env.BOT_TOKEN`, no arquivo `index.js`
   * os campos de acesso ao banco de dados, em `functions/database.js`
   * o campo MYAPIID, na chamada da API Open Weather, em `commands/utils/weather.js`
   ```
@@ -76,13 +76,17 @@ Também é importante observar que o comando de previsão do tempo necessita de 
   6º Passo: Crie as tabelas necessárias no mesmo banco de dados PostgreSQL das credenciais fornecidas na etapa anterior
   ```
   
+Os códigos SQL necessários para a criação das tabelas do banco de dados se encontram no arquivo `database.sql`
+  
 Observação: espera-se, em futuras versões deste projeto, simplificar algumas etapas de instalação.
 
 ## Execução
 
   ```
-  Execute o comando `npm start` ou `node .` para hospedar o bot na sua máquina. Se tudo der certo, a mensagem "Estou na sua realidade!" deve aparecer no seu terminal.
+  Execute os comandos `npm start` ou `node .` para hospedar o bot na sua máquina
   ```
+  
+  Se tudo der certo, a mensagem "Estou na sua realidade!" deve aparecer no seu terminal.
 
 ## Bugs/problemas conhecidos
 
