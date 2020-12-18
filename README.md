@@ -18,10 +18,17 @@ O autor deste projeto deixa claro que não possui quaisquer direitos oficiais so
 ## Funcionalidades
 
 Dentre as funcionalidades atualmente implementadas, a Monika pode:
-* Cumprimentar usuários, entrar em canais de voz, enviar abraços e enviar mensagens de texto aleatórias e outras 
-* Mostrar uma lista completa de comandos (e fornecer mais detalhes sobre eles)
+* Cumprimentar usuários, enviar abraços, escrever mensagens e realizar outros comportamentos aleatórios
+* Entrar e sair de canais de voz
+* Mostrar uma lista completa de comandos (e fornecer mais detalhes sobre cada um eles)
 * Mostrar a previsão do tempo para um determinado lugar
-* Enviar gifs aleatórios
+* Enviar gifs de uma seleção aleatória
+* Realizar um ping TCP em um endereço na Web (e em uma determinada porta, se especificado)
+* Rolar dados de diversos lados
+* Tocar músicas a partir de links do Youtube
+* Deletar pessoas e trazê-las de volta (referência ao jogo DDLC 😉 )
+
+A cada nova atualização, mais funcionalidades serão implementadas. Desta forma, a lista e a quantidade de recursos/dependências poderá se expandir.
 
 ## Recursos utilizados
 
@@ -105,12 +112,12 @@ Até o momento, os problemas mais notórios a serem resolvidos são:
 
 ## Imagens/screenshots
 
-![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png)
+![Execução do comando hello](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png)
 
-![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help.png)
+![Execução do comando help](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help.png)
 
-![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help%20myinfo.png)
+![Execução do comando help, com outro comando como argumento](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help%20myinfo.png)
 
-![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/myinfo.png)
+![Execução do comando myinfo](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/myinfo.png)
 
-![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/weather.png)
+![Execução do comando weather](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/weather.png)
