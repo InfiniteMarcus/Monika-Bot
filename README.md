@@ -62,3 +62,13 @@ Diante do desenvolvimento contínuo de novas funcionalidades para o bot, existem
 ## Demais anotações e referências
 
 ## Imagens/screenshots
+
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png)
+
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help.png)
+
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help%20myinfo.png)
+
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/myinfo.png)
+
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/weather.png)
