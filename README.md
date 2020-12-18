@@ -49,7 +49,40 @@ Também é importante observar que o comando de previsão do tempo necessita de 
 
 ## Instalação
 
+  ```
+  1º Passo: Baixe e instale o Node.js, preferencialmente na mesma versão apresentada no arquivo `package.json`. Se tudo der certo, o gerenciador de pacotes npm será instalado automaticamente junto do Node
+  ```
+  
+  ```
+  2º Passo: Clone/copie todos os arquivos deste repositório em um diretório na sua máquina
+  ```
+  
+  ```
+  3º Passo: Execute o comando `npm install` para instalar todas as dependências presentes em `package.json`
+  ```
+  
+  ```
+  4º Passo: Preencha todos os campos necessários no arquivo `config.json`
+  ```
+  
+  ```
+  5º Passo: Preencha os demais campos com tokens e chaves de configuração do projeto:
+  * process.env.BOT_TOKEN, no arquivo `index.js`
+  * os campos de acesso ao banco de dados, em `functions/database.js`
+  * o campo MYAPIID, na chamada da API Open Weather, em `commands/utils/weather.js`
+  ```
+
+  ```
+  6º Passo: Crie as tabelas necessárias no mesmo banco de dados PostgreSQL das credenciais fornecidas na etapa anterior
+  ```
+  
+Observação: espera-se, em futuras versões deste projeto, simplificar algumas etapas de instalação.
+
 ## Execução
+
+  ```
+  Execute o comando `npm start` ou `node .` para hospedar o bot na sua máquina. Se tudo der certo, a mensagem "Estou na sua realidade!" deve aparecer no seu terminal.
+  ```
 
 ## Bugs/problemas conhecidos
 
