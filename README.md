@@ -120,6 +120,11 @@ Até o momento, os problemas mais notórios a serem resolvidos são:
 
 ## Demais anotações e referências
 
+Seguem algumas últimas informações e observações sobre o projeto:
+* Não existem planos concretos, por parte do autor do projeto, de hostear o bot publicamente no momento. Existem diversos gastos envolvidos e otimizações necessárias que ainda não são pertinentes
+* Este README pode se tornar obsoleto ao longo do tempo, em vista da necessidade de documentar novas alterações. Novas atualizações virão com o tempo, entretanto provavelmente irão demorar
+* O autor do projeto, como qualquer outra pessoa, não é perfeito. O projeto sempre está aberto para sugestões, recomendações, alterações, correções e afins. Então sinta-se livre para entrar em contato direto ou utilizar as próprias ferramentas do GitHub para tal
+
 ## Imagens/screenshots
 
 ![Execução do comando hello](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png)
