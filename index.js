@@ -36,13 +36,13 @@ bot.on('ready', ()=>{
 });
 
 bot.on('guildMemberAdd', function(member){
-    let mainRole = member.guild.roles.cache.find(role => role.name === "Gafanhoto");
+    let mainRole = member.guild.roles.cache.find(role => role.name === process.env.ROLE);
     member.roles.add(mainRole);
-    member.guild.channels.cache.find(channel => channel.name === "boas-vindas").send("Olá " + "<@" + member.id + ">!!! Seja bem vindo(a)!!!\n\n Se tiver alguma dúvida, não tenha medo de perguntar! Só hackeamos os outros nas horas vagas..." );
+    member.guild.channels.cache.find(channel => channel.name === process.env.WELCOME_CHANNEL).send("Olá " + "<@" + member.id + ">!!! Seja bem vindo(a)!!!\n\n Se tiver alguma dúvida, não tenha medo de perguntar!" );
 });
 
 bot.on('guildMemberRemove', member => {
-    member.guild.channels.cache.find(channel => channel.name === "boas-vindas").send("<@" + member.id + ">, fez overclocking e queimou o PC. Até mais!!!");
+    member.guild.channels.cache.find(channel => channel.name === process.env.WELCOME_CHANNEL).send("<@" + member.id + ">, saiu do servidor. Até mais!!!");
 })
 
 bot.on('message', async msg => {
@@ -62,8 +62,8 @@ bot.on('message', async msg => {
 
         if((!msg.content.startsWith(prefix)) && (!msg.content.startsWith(secret_prefix))) return;
 
-        //Only set this if your bot needs to respond only in a specific channel
-        //if(msg.channel.id !== "") return;
+        //Apenas use esta linha caso seu bot necessite responder em apenas um único canal exclusivo
+        //if(msg.channel.id !== process.env.BOTS_ONLY_CHANNEL) return;
 
         if(msg.content.startsWith(secret_prefix))
             return msg.reply(" apenas eu!");
