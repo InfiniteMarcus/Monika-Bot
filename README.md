@@ -88,8 +88,9 @@ Diante da continuidade deste projeto, outros passos, estudos e reformulações a
   
   ```
   5º Passo: Preencha os demais campos com tokens e chaves de configuração do projeto:
-  * `process.env.BOT_TOKEN`, no arquivo `index.js`, para autenticar o bot na API do Discord
-  * `process.env.ROLE` e `process.env.WELCOME_CHANNEL`, no arquivo `index.js, para configurar qual cargo padrão novos usuários irão receber e qual mensagem de boas-vindas deverá aparecer
+  * `process.env.BOT_TOKEN`, em `index.js`, para autenticar o bot na API do Discord
+  * `process.env.ROLE` e `process.env.WELCOME_CHANNEL`, em `index.js`, para configurar qual cargo padrão novos usuários irão receber e qual mensagem de boas-vindas deverá aparecer
+  * (OPCIONAL) `process.env.process.env.BOTS_ONLY_CHANNEL`, em `index.js`, caso o bot necessite responder apenas em um único canal exclusivo
   * os campos de acesso ao banco de dados, em `functions/database.js`, para usufruir do sistema de níveis e moedas
   * o campo MYAPIID, na chamada da API Open Weather, em `commands/utils/weather.js`, para o comando de previsão do tempo
   ```
