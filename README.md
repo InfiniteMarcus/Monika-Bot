@@ -63,22 +63,12 @@ Diante do desenvolvimento contínuo de novas funcionalidades para o bot, existem
 
 ## Imagens/screenshots
 
-<p align="center">
-  <img src="https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png">
-</p>
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/hello.png)
 
-<p align="center">
-  <img src="https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help.png">
-</p>
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help.png)
 
-<p align="center">
-  <img src="https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help%20myinfo.png">
-</p>
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/help%20myinfo.png)
 
-<p align="center">
-  <img src="https://github.com/Infinitemarcus/Monika-bot/blob/main/images/myinfo.png">
-</p>
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/myinfo.png)
 
-<p align="center">
-  <img src="https://github.com/Infinitemarcus/Monika-bot/blob/main/images/weather.png">
-</p>
+![Imagem](https://github.com/Infinitemarcus/Monika-bot/blob/main/images/weather.png)
