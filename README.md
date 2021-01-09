@@ -111,8 +111,9 @@ Diante do desenvolvimento contínuo de novas funcionalidades para o bot, existem
 
 Até o momento, os problemas mais notórios a serem resolvidos são:
 * O comando `-myinfo` possui alguns problemas de visualização em dispositivos móveis;
-* O comando `-help`, a medida em que novas funcionalidades estão sendo implementadas, retorna uma lista bem extensa de comandos, não sendo muito amigável para ler;
-* A busca por localidades com o comando `-weather` pode, em algumas situações, não funcionar. Isto ocorre por problemas envolvendo acentos e traduções de nomes de países, cidades e demais lugares, dado que a API que fornece os dados de previsão do tempo foi feita originalmente em inglês
+* O comando `-help`, a medida em que novas funcionalidades estão sendo implementadas, retorna uma lista extensa de comandos, não sendo muito amigável para ler;
+* A busca por localidades com o comando `-weather` pode, em algumas situações, não funcionar. Isto ocorre por problemas envolvendo acentos e traduções de nomes de países, cidades e demais lugares, dado que a API que fornece os dados de previsão do tempo foi feita originalmente em inglês;
+* Instalação e configuração do projeto possui alta complexidade. Diversos dados necessitam ser reorganizados para simplificar este processo
 
 ## Autores
 
