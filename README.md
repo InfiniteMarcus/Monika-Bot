@@ -1,6 +1,8 @@
 # Project Monika
 
-🛑 **AVISO! Repositório descontinuado!** 🛑
+<p align="center">
+  🛑 <strong>AVISO! Repositório descontinuado!</strong> 🛑
+</p>
 
 O **Projeto Monika** foi reformulado para **Projeto Hanna**. Por consequência, este repositório se tornou obsoleto e não será mais atualizado no futuro.
 
