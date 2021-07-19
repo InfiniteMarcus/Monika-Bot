@@ -1,8 +1,8 @@
 # Monika Bot
 
-<p align="center">
+<h2 align="center">
   🛑 <strong>AVISO! Repositório descontinuado!</strong> 🛑
-</p>
+</h2>
 
 O **Projeto Monika** foi reformulado para **Projeto Hanna**. Por consequência, este repositório se tornou obsoleto e não será mais atualizado no futuro.
 
