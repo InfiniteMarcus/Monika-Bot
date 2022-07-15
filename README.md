@@ -4,9 +4,13 @@
   🛑 <strong>AVISO! Repositório descontinuado!</strong> 🛑
 </h2>
 
-O **Projeto Monika** foi reformulado para **Projeto Hanna**. Por consequência, este repositório se tornou obsoleto e não será mais atualizado no futuro.
+O **Projeto Monika** foi reformulado para **Projeto Hanna**. Por consequência, este repositório se tornou obsoleto e não será mais atualizado no futuro. É possível acompanhar mais novidades via [Twitter da Hanna](https://twitter.com/ProjectHanna).
 
-As próximas versões do projeto serão mantidas [neste novo repositório](https://github.com/Infinitemarcus/Project-Hanna-Bot). Também é possível acompanhar mais novidades via [Twitter da Hanna](https://twitter.com/ProjectHanna).
+Entretanto, esta ainda é uma boa base para diversos sistemas e comandos para bots de Discord, e uma boa porcentagem disso foi reaproveitada para a Hanna.
+
+É importante frisar que o código aqui escrito pode estar defasado e desatualizado, dado que:
+- Atualizações com mudanças importantes na API do Discord e no wrapper discord.js podem (e devem) ter acontecido
+- Quando eu criei este repositório, eu ainda estava aprendendo Node.js e conceitos sobre estruturação e engenharia de software
 
 ## Conceito
 O projeto **Monika bot** se baseou na criação de um bot de propósito geral para a plataforma Discord, utilizando-se de do módulo [discord.js](https://github.com/discordjs/discord.js), em Node.js, para acessar a API da mesma e fornecer diversos comandos úteis para os usuários.
